@@ -1,1 +1,8 @@
-salesTaxPercentage: 17
+feature-toggles:
+  credit-check: false
+  fraud-detection: false
+
+spring:
+  datasource:
+    ext:
+      database-name: payments
