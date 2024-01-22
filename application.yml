@@ -4,6 +4,6 @@ spring:
   datasource:
     url: jdbc:postgresql://${spring.datasource.ext.host}:5432/${spring.datasource.ext.database-name}
     username: postgres
-    password: '{cipher}eefc74a6a31b7df94ec7f42a4495a4ed00dea42f4e1b3f3b30fc81e0b210487b'
+    password: '{cipher}37b051e4b5154a4371dd20d85b8d0b30f5eb429f6ca7415479dc407289c67547'
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
